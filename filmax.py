@@ -37,7 +37,7 @@ STREAM_KEY = "gotv"
 rtmp_server = f"{RTMP_URL}/{STREAM_KEY}"
 
 # ===================== YAYIN AYARLARI =====================
-VIDEO_URL = "https://catcast.ismailturret.workers.dev/playercinema-premium6.m3u8"  # Değiştir!
+VIDEO_URL = "https://catcast.ismailturret.workers.dev/playercinema-premium3.m3u8"  # Değiştir!
 LOGO_URL = "https://i.hizliresim.com/cg47e14.png"  # Değiştir!
 
 print("=" * 50)
@@ -60,7 +60,7 @@ command = [
     '-i', LOGO_URL,
     '-filter_complex',
     '[0:v]scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black[v0];'
-    '[1:v]scale=230:90[logo];'
+    '[1:v]scale=-1:90[logo];'
     '[v0][logo]overlay=10:10[v1];'
     '[v1]drawtext=text=:fontcolor=white:fontsize=24:box=1:boxcolor=black@0.6:boxborderw=5:x=(w-text_w)/2:y=h-text_h-20[v]',
     '-map', '[v]',

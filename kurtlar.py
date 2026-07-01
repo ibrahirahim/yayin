@@ -38,7 +38,7 @@ rtmp_server = f"{RTMP_URL}/{STREAM_KEY}"
 
 # ===================== YAYIN AYARLARI =====================
 VIDEO_URL = "https://catcast.ismailturret.workers.dev/fanatikprimekurtlarvadisi.m3u8"  # Değiştir!
-LOGO_URL = "https://i.hizliresim.com/kpx9cyq.png"  # Değiştir!
+LOGO_URL = "https://r.resimlink.com/JghBC8mLvEsi.png"  # Değiştir!
 
 print("=" * 50)
 print("📺 SSH101.com Yayın Başlatılıyor")

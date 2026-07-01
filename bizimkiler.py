@@ -33,12 +33,12 @@ import threading
 
 # ===================== SSH101.com AYARLARI =====================
 RTMP_URL = "rtmp://ssh101.bozztv.com:1935/ssh101"
-STREAM_KEY = "tvgomuzik"
+STREAM_KEY = "tvgobizimkiler"
 rtmp_server = f"{RTMP_URL}/{STREAM_KEY}"
 
 # ===================== YAYIN AYARLARI =====================
-VIDEO_URL = "https://catcast.ismailturret.workers.dev/now-music.m3u8"  # Değiştir!
-LOGO_URL = "https://i.hizliresim.com/3m5s8uy.png"  # Değiştir!
+VIDEO_URL = "https://catcast.ismailturret.workers.dev/fanatikprimebizimkiler.m3u8"  # Değiştir!
+LOGO_URL = "https://i.hizliresim.com/tcpup9j.png"  # Değiştir!
 
 print("=" * 50)
 print("📺 SSH101.com Yayın Başlatılıyor")

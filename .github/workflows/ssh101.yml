@@ -57,7 +57,7 @@ jobs:
             '-i', VIDEO_URL,
             '-i', LOGO_URL,
             '-filter_complex',
-            '[0:v]scale=1920:1080:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black[v0];'
+            '[0:v]scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black[v0];'
             '[1:v]scale=230:90[logo];'
             '[v0][logo]overlay=W-w-10:3[v1];'
             '[v1]drawtext=text=:fontcolor=white:fontsize=24:box=1:boxcolor=black@0.6:boxborderw=5:x=(w-text_w)/2:y=h-text_h-20[v]',
@@ -65,7 +65,7 @@ jobs:
             '-map', '0:a?',
             '-c:v', 'libx264',
             '-preset', 'veryfast',
-            '-b:v', '6000k',
+            '-b:v', '4000k',
             '-c:a', 'aac',
             '-b:a', '128k',
             '-f', 'flv',

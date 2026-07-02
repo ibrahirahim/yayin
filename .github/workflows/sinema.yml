@@ -37,7 +37,7 @@ jobs:
 
         # ===================== YAYIN AYARLARI =====================
         PLAYLIST_FILE = "playlist.m3u"
-        LOGO_URL = "https://i.hizliresim.com/rq6o3ie.png"
+        LOGO_URL = "https://r.resimlink.com/x7wh2qF1nX.png"
 
         print("=" * 50)
         print("📺 SSH101.com Yayın Başlatılıyor")

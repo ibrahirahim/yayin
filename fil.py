@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+bu#!/data/data/com.termux/files/usr/bin/bash
 
 # Renkli çıktı için
 RED='\033[0;31m'
@@ -37,7 +37,7 @@ STREAM_KEY = "filgo"
 rtmp_server = f"{RTMP_URL}/{STREAM_KEY}"
 
 # ===================== YAYIN AYARLARI =====================
-VIDEO_URL = "https://catcast.ismailturret.workers.dev/playercinema-premium1.m3u8"  # Değiştir!
+VIDEO_URL = "https://catcast.ismailturret.workers.dev/playercinema-premium 1.m3u8"  # Değiştir!
 LOGO_URL = "https://i.hizliresim.com/q99vnmk.png"  # Değiştir!
 
 print("=" * 50)

@@ -37,7 +37,7 @@ STREAM_KEY = "tvgo2"
 rtmp_server = f"{RTMP_URL}/{STREAM_KEY}"
 
 # ===================== YAYIN AYARLARI =====================
-VIDEO_URL = "https://catcast.ismailturret.workers.dev/playercinema-premium4.m3u8"  # Değiştir!
+VIDEO_URL = "https://raw.githubusercontent.com/ibrahirahim/yayin/refs/heads/main/playlist.m3u"  # Değiştir!
 LOGO_URL = "https://i.hizliresim.com/rq6o3ie.png"  # Değiştir!
 
 print("=" * 50)
